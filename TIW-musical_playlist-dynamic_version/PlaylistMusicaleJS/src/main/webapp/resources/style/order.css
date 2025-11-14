@@ -1,0 +1,68 @@
+
+.sortable-list{
+    min-width: 300px;
+    max-width: 600px;
+}
+
+.songLine{
+    margin: 3px;
+    background: white;
+    color: black;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    /*padding: 0.5rem;
+    margin: 5px;*/
+    transition: all 0.5s ease;
+}
+
+/*
+.songLine li{
+	flex: 1;
+}
+*/
+.songItem{
+    padding: 0rem 0.5rem;
+}
+
+
+#allSongSelectID, #playlistSongSelectID{
+ 	min-width:150px;   
+}
+
+.divListPlaylist{
+    padding: 5px;
+    /*margin: 5px;*/
+}
+
+.parListPlaylist{
+    cursor:pointer;
+}
+
+#alertID{
+    cursor:pointer;
+}
+
+ul {
+  list-style: none;
+}
+
+li.songLine {
+  flex: 1;
+  cursor: pointer;
+  user-select: none;
+  /*color: #1C94C4;*/
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  /*background-color: #f6f6f6;
+  padding: 10px;*/
+  min-width: 150px;
+  /*margin-bottom: 3px;*/
+}
+
+.hidden {
+  color: transparent;
+  border: 1px dashed rgba(0, 0, 0, 0.2);
+  background-color: transparent;
+}
