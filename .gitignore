@@ -1,3 +1,14 @@
+# Eclipse files
+.metadata
+.settings
+.project
+.classpath
+bin/
+*.class
+
+# Manifest file
+META-INF/MANIFEST.MF
+
 # Logs
 logs
 *.log
