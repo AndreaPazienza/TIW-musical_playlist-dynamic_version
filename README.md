@@ -18,6 +18,7 @@ The goal of this project was to implement a music playlist manager with a dynami
   - `controllers/`: Contains servlets or controller classes handling HTTP requests.
 - `PlaylistMusicaleHTML/src/main/webapp/`: Contains the frontend of the web application.
   - `WEB-INF/`: Contains JSP files and the `web.xml` deployment descriptor.
+  - `resources/script/`: Contains the JavaScript files for dynamic frontend functionality.
   - `resources/style/`: Contains the CSS files for styling the site.
 - `Deliverables/`: Contains the project documentation.
 
