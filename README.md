@@ -1,6 +1,6 @@
 # Music Playlist Manager (Dynamic Version)
 
-This repository contains the dynamic version of the music playlist manager project for the Technologies for Web Applications course at Politecnico di Milano. The project implements a music playlist manager with a MySQL database, Java backend using JDBC, and a dynamic frontend built with JSP and JavaScript.
+This repository contains the dynamic version of the music playlist manager project for the Technologies for Web Applications course at Politecnico di Milano. The project implements a music playlist manager with a MySQL database, a Java backend using JDBC, and a dynamic frontend built with JSP and JavaScript.
 
 ---
 
@@ -15,7 +15,7 @@ The goal of this project was to implement a music playlist manager with a dynami
 - `PlaylistMusicaleHTML/src/main/java/`: Contains the Java backend code and JDBC connection logic.
   - `beans/`: Contains Java classes representing data models.
   - `dao/`: Contains Data Access Object classes for database operations.
-  - `controllers/`: Contains servlets classes handling HTTP requests.
+  - `controllers/`: Contains servlet classes handling HTTP requests.
 - `PlaylistMusicaleHTML/src/main/webapp/`: Contains the frontend of the web application.
   - `WEB-INF/`: Contains JSP files and the `web.xml` deployment descriptor.
   - `resources/script/`: Contains the JavaScript files for dynamic frontend functionality.
@@ -26,7 +26,7 @@ The goal of this project was to implement a music playlist manager with a dynami
 
 ## How to Run the Project
 
-1. Set up a MySQL database and import the provided schema.
+1. Set up a MySQL database and create the tables as described in the project documentation.
 2. Compile and run the Java backend.
 3. Deploy the JSP files on a compatible web server.
 4. Access the application through the web browser.
